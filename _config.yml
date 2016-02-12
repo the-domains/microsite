@@ -1,28 +1,40 @@
-name: microsite
-favicon: null
-layout_spectrum: 0.5362722803838551
-typography_spectrum: 0.4339731624349952
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
-  brandStrength: 0.899897342780605
-  lightness: 0.7576925272587687
-  saturation: 0.5281276809982955
-  rhythmicContrast: 0.5836242865771055
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.5281276809982955
+  brandStrength: 1
+  lightness: 0.7576925272587687
+  brandColors:
+    - '#040403'
+    - '#313138'
+    - '#EACFCF'
+    - '#645D4C'
+    - '#92776E'
+  rhythmicContrast: 0.5836242865771055
+typography_spectrum: 0
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.03942652
+favicon: null
+name: microsite
