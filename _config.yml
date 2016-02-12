@@ -1,4 +1,8 @@
-name: microsite
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: Video Marketing
 opengraph:
   image: null
   type: null
@@ -9,32 +13,28 @@ collections:
       number: 15
       paginate: true
       navigable: true
+    permalink:
+      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-    permalink:
-      path: '/:title/'
-layout_spectrum: 0.03942652
+purpose: []
+typography_spectrum: 0
 color:
   saturation: 0.5281276809982955
   brandStrength: 1
-  rhythmicContrast: 0.5836242865771055
-  brandColors:
-    - '#040403'
-    - '#313138'
-    - '#EACFCF'
-    - '#645D4C'
-    - '#92776E'
   lightness: 0.7576925272587687
-purpose: []
+  brandColors:
+    - '#1F5CAC'
+    - '#A3A3A2'
+    - '#FFFBD0'
+    - '#535B5D'
+    - '#010327'
+  rhythmicContrast: 0.5836242865771055
+layout_spectrum: 0.03942652
 cta:
   bucket: null
   version: null
   domain: null
 favicon: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
-typography_spectrum: 0
