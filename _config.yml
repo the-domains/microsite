@@ -1,7 +1,4 @@
-analytics:
-  twitter: null
-  google: null
-  facebook: null
+name: microsite
 opengraph:
   image: null
   type: null
@@ -12,29 +9,32 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-purpose: []
+    permalink:
+      path: '/:title/'
+layout_spectrum: 0.03942652
 color:
   saturation: 0.5281276809982955
   brandStrength: 1
-  lightness: 0.7576925272587687
+  rhythmicContrast: 0.5836242865771055
   brandColors:
     - '#040403'
     - '#313138'
     - '#EACFCF'
     - '#645D4C'
     - '#92776E'
-  rhythmicContrast: 0.5836242865771055
-typography_spectrum: 0
+  lightness: 0.7576925272587687
+purpose: []
 cta:
   bucket: null
   version: null
   domain: null
-layout_spectrum: 0.03942652
 favicon: null
-name: microsite
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+typography_spectrum: 0
